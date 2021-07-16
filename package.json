@@ -1,0 +1,29 @@
+{
+  "name": "app-agencia-viajes-express",
+  "version": "1.0.0",
+  "description": "Demo de Web de una agencia de viajes creada con NodeJs, express, mysql, pug ",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx nodemon index.js",
+    "start": "node index.js"
+  },
+  "type": "module",
+  "keywords": [
+    "node",
+    "express",
+    "agencia",
+    "de",
+    "viajes"
+  ],
+  "author": "Erlich Rodriguez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "pug": "^3.0.2",
+    "sequelize": "^6.6.5"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0"
+  }
+}
